@@ -1,34 +1,21 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /openhab-logo-square.png
+heroText: 'Empowering the smart home'
 actionText: Get Started →
 actionLink: /guide/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: Integrate Everything
+  details: With its pluggable architecture openHAB supports more than 200 different technologies and systems and thousands of devices!
+- title: Automate with Ease
+  details: Powerful and flexible rules, time and event-based triggers, scripts, notifications and voice control
+- title: Runs Everywhere
+  details: Linux, macOS, Windows, Raspberry Pi and PINE64... Various apps provide a single interface for all your systems on the web, iOS, Android and others.
+footer: Copyright © 2018 by the openHAB Community and the openHAB Foundation e.V. - Imprint - Privacy Policy
 ---
 
-### As Easy as 1, 2, 3
-
-``` bash
-# install
-yarn global add vuepress # OR npm install -g vuepress
-
-# create a markdown file
-echo '# Hello VuePress' > README.md
-
-# start writing
-vuepress dev
-
-# build to static files
-vuepress build
 ```
+This is a test using VuePress.
 
-::: warning NODE VERSION
-Please make sure your version of Node.js is greater than 8.
-:::
+Here would be some fancy marketing. The page layout should also be designed better!
+```

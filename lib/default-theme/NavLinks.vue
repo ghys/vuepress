@@ -8,6 +8,16 @@
       <DropdownLink v-if="item.type === 'links'" :item="item"/>
       <NavLink v-else :item="item"/>
     </div>
+
+    <a
+      href="https://community.openhab.org"
+      class="github-link"
+      target="_blank"
+      rel="noopener">
+      Community
+      <OutboundLink/>
+    </a>
+    
     <!-- github link -->
     <a v-if="githubLink"
       :href="githubLink"
