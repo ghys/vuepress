@@ -1,5 +1,6 @@
 ---
-home: true
+# home: true
+layout: HomePage
 heroImage: /openhab-logo-square.png
 heroText: 'Empowering the smart home'
 actionText: Get Started →

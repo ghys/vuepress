@@ -1,20 +1,25 @@
 const base = process.env.GH ? '/vuepress/' : '/'
 
 module.exports = {
-  // title: 'openHAB',
+  title: 'openHAB',
   description: 'openHAB - a vendor and technology agnostic open source automation software for your home',
   dest: 'vuepress',
   base,
   head: [
-    ['link', { rel: 'icon', href: `/logo.png` }]
+    ['link', { rel: 'icon', href: `/openhab-logo-square.png` }],
+    ['link', { rel: 'stylesheet', href: `//fonts.googleapis.com/css?family=Open+Sans` }]
   ],
-  serviceWorker: true,
+  serviceWorker: false,
   themeConfig: {
     logo: `/openhab-logo-top.png`,
     repo: 'openhab',
     editLinks: false,
     docsDir: 'docs',
     nav: [
+      {
+        text: 'News',
+        link: '/news/'
+      },
       {
         text: 'Download',
         link: '/download/',
@@ -24,18 +29,43 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Add-on Reference',
+        text: 'Add-ons',
         link: '/addons/'
       },
       {
-        text: 'myopenHAB',
-        link: '/myopenhab/'
-      }
+        text: 'About',
+        items: [
+          {
+            text: 'Who We Are',
+            link: '/about/who-we-are'
+          },
+          {
+            text: 'Community',
+            link: '/about/community'
+          },
+          {
+            text: 'Foundation',
+            link: 'https://openhabfoundation.org/'
+          },
+          {
+            text: 'Events',
+            link: '/about/events'
+          },
+          {
+            text: 'Donate',
+            link: '/about/donate'
+          }
+        ]
+      },
+      // {
+      //   text: 'myopenHAB',
+      //   link: '/myopenhab/'
+      // }
     ],
     sidebar: {
       '/guide/': [
         {
-          title: 'User Guide',
+          title: 'User Manual',
           collapsable: false,
           children: [
             '',
@@ -46,18 +76,18 @@ module.exports = {
             'configuration',
             'user-interfaces',
             'administration',
-            'community'
+            // 'community'
           ]
         },
         {
-          title: 'Developer guide',
+          title: 'Developer Guide',
           collapsable: true,
           children: [
-            'developer',
-            'developer-contributing',
-            'developer-prerequisites',
-            'developer-basics',
-            'developer-migrating',
+            'developer/',
+            'developer/contributing',
+            'developer/prerequisites',
+            'developer/basics',
+            'developer/migrating',
           ]
         }
       ],
