@@ -81,6 +81,7 @@
     "vue": "^2.5.16",
     "vue-loader": "^15.0.0-rc.1",
     "vue-router": "^3.0.1",
+    "vue-scroll-reveal": "^1.0.8",
     "vue-server-renderer": "^2.5.16",
     "vue-template-compiler": "^2.5.16",
     "vuepress-html-webpack-plugin": "^3.2.0",

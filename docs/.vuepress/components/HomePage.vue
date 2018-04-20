@@ -14,15 +14,15 @@
       <div class="section2">
         <h2>Why openHAB?</h2>
         <div class="features">
-          <div class="feature">
+          <div class="feature" v-scroll-reveal="{ delay: 250 }">
             <h3>Integrate Everything</h3>
             <p>With its pluggable architecture openHAB supports more than 200 different technologies and systems and thousands of devices!</p>
           </div>
-          <div class="feature">
+          <div class="feature" v-scroll-reveal="{ delay: 500 }">
             <h3>Automate with Ease</h3>
             <p>Powerful and flexible rules, time and event-based triggers, scripts, notifications and voice control</p>
           </div>
-          <div class="feature">
+          <div class="feature" v-scroll-reveal="{ delay: 750 }">
             <h3>Runs Everywhere</h3>
             <p>Linux, macOS, Windows, Raspberry Pi and PINE64... Various apps provide a single interface for all your systems on the web, iOS, Android and others.</p>
           </div>
@@ -31,6 +31,21 @@
     </div>
   </div>
 </template>
+
+<script>
+import Vue from 'vue'
+import VueScrollReveal from 'vue-scroll-reveal'
+Vue.use(VueScrollReveal)
+
+export default {
+  mounted () {
+    // import('vue-scroll-reveal').then(module => {
+    //   debugger
+    //   Vue.use(module)
+    // })
+  }
+}
+</script>
 
 <style lang="stylus">
 @keyframes slideIn1
