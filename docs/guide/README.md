@@ -9,16 +9,16 @@ It provides uniform user interfaces, and a common approach to automation rules a
 
 ## Getting Started
 
-We highly recommend that you read the next chapter titled [Concepts]({{base}}/concepts/index.html).
+We highly recommend that you read the next chapter titled [Concepts](./concepts/index.html).
 It introduces a number of important ideas that will help you as you install and begin to configure openHAB for the first time.
 
 openHAB runs on many popular platforms including Linux, Windows and Mac OSx.
-You can find specific installation instructions for these and other platforms in the [Installation Overview]({{base}}/installation/index.html) article.
-Many people find that the simplest way to experiment with openHAB is to get a [Raspberry Pi](https://raspberrypi.org) and install [openHABian]({{base}}/installation/openhabian.html); a "hastle-free openHAB setup".
+You can find specific installation instructions for these and other platforms in the [Installation Overview](./installation/index.html) article.
+Many people find that the simplest way to experiment with openHAB is to get a [Raspberry Pi](https://raspberrypi.org) and install [openHABian](./installation/openhabian.html); a "hastle-free openHAB setup".
 While openHABian offers a streamlined and simplified way to get up and running quickly, it is a complete openHAB home automation system capable of automating your entire home.
 
-Once you have openHAB up and running, the [Configuration]({{base}}/configuration/index.html) article contains everything you need to know to get your openHAB installation talking to different devices around your home.
-You can use [Sitemaps]({{base}}/configuration/sitemaps.html) to control how the status of these devices are displayed on different openHAB User Interfaces, and you can begin to experiment with [Rules]({{base}}/configuration/rules-dsl.html) in order to get the most out of your installation.
+Once you have openHAB up and running, the [Configuration](./configuration/index.html) article contains everything you need to know to get your openHAB installation talking to different devices around your home.
+You can use [Sitemaps](./configuration/sitemaps.html) to control how the status of these devices are displayed on different openHAB User Interfaces, and you can begin to experiment with [Rules](./configuration/rules-dsl.html) in order to get the most out of your installation.
 
 Along the way, you may have some questions; the openHAB community is here to help.
 
@@ -45,4 +45,4 @@ The overall architecture of openHAB is shown in the figure below:
 
 ![distribution overview](./images/common/distro.png "Overall openHAB Architectural View")
 
-If you are new to openHAB, we suggest you continue to the [Concepts]({{base}}/concepts/index.html) chapter where we introduce many fundamental ideas that are used throughout openHAB.
+If you are new to openHAB, we suggest you continue to the [Concepts](./concepts/index.html) chapter where we introduce many fundamental ideas that are used throughout openHAB.
